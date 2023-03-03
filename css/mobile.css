@@ -1,0 +1,100 @@
+:root {
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --pressed-state-color: #404bbf;
+  --primaryBrand-color: #4d5ae5;
+  --success-color: #31d0aa;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #2e2f4266;
+  --hero-background-color: #2e2f42b2;
+  --background-color: #e5e5e5;
+  --hero-background-grad: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.container {
+  width: 100%;
+  min-width: 354px;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  margin: 24px 16px;
+  background: #ffffff;
+}
+.logo {
+  line-height: 1.33;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+.logo span {
+  color: var(--primaryBrand-color);
+}
+
+.list {
+  list-style: none;
+}
+/* .nav .logo {
+  margin-right: auto;
+  padding-bottom: 24px;
+  padding-top: 24px;
+} */
+/* --------------navigation------------------ */
+@media screen and (max-width: 768px) {
+  .header {
+    border-bottom: 1px solid var(--accent-color);
+  }
+  .nav-link {
+    text-decoration: none;
+  }
+  .mail {
+    text-decoration: none;
+  }
+  .phone {
+    text-decoration: none;
+  }
+}

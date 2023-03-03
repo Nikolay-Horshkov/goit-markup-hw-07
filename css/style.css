@@ -171,6 +171,7 @@ img {
 }
 .container {
   width: 100%;
+  min-width: 354px;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
