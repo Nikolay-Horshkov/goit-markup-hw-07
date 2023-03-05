@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  /* --------------hero---------------- */
+  .section-hero {
+    background-color: var(--dark-color);
+    background-image: var(--hero-background-grad),
+      url(../images/background-image-1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 112px;
+    padding-bottom: 108px;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #ffffff;
+  }
+  .hero-btn {
+    border: none;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    background-color: var(--primaryBrand-color);
+    transition: background-color var(--hover-transition);
+  }
+  .hero-btn:hover,
+  .hero-btn:focus {
+    background-color: var(--pressed-state-color);
+  }
+}

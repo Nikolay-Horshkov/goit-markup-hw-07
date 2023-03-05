@@ -86,8 +86,7 @@ img {
 }
 .container {
   width: 100%;
-  min-width: 354px;
-  max-width: 1158px;
+  max-width: 428px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -249,7 +248,7 @@ img {
   flex-wrap: wrap;
 }
 .customers-items {
-  width: 168px;
+  width: 190px;
   height: 88px;
 }
 .customers-link {
